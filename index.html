@@ -3,49 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Development Financing Instutions - LAC </title>
+    <title>Mobilizing Investment for Green Industrialization and Regional Integration in Latin America and the Caribbean</title>
     
-    <link rel="stylesheet" href="https://cdn.datatables.net/2.3.1/css/dataTables.css">
+      <!-- Bulma CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+    <!-- Table Data CSS -->
     <link rel="stylesheet" href="https://cdn.datatables.net/2.3.1/css/dataTables.dataTables.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.3.1/css/dataTables.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     
     <section class="section">
         <!-- <div class="container"> -->
-            <h1 class="title has-text-success"></h1>
+            <h1 class="title">Result data for Sovereign Wealth Funds (SWFs)</h1>
             <p>In colloboaration with Oxford University</p>
         <!-- </div> -->
         <div class="table-container">
             <table id="dataTable" class="table is-striped is-hoverable is-fullwidth">
                 <thead>
                     <tr>
-                        <th>Country</th>
-                        <th>Institution</th>
-                        <th>Website</th>
+                        <th>Assets under management(Billion USD)</th>
+                        <th>SWF country</th>
+                        <th>SWF Name</th>
+                        <th>URL</th>
+                        <th>Year</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>Argentina</td>
-                        <td>Banco de Inversión y Comercio Exterior (BICE)</td>
-                        <td><a href="https://www.bice.com.ar/">bice.com.ar</a></td>
-                    </tr>
-                    <tr>
-                        <td>Brazil</td>
-                        <td>BNDES (Banco Nacional de Desenvolvimento Econômico e Social)</td>
-                        <td><a href="https://www.bndes.gov.br/">bndes.gov.br</a></td>
-                    </tr>
-                    <tr>
-                        <td>Chile</td>
-                        <td>CORFO (Corporación de Fomento de la Producción)</td>
-                        <td><a href="https://www.corfo.cl/">corfo.cl</a></td>
-                    </tr>
-                    <tr>
-                        <td>Colombia</td>
-                        <td>Bancó Agrario de Colombia S.A.</td>
-                        <td><a href="https://www.bancoagrario.gov.co/">bancoagrario.gov.co</a></td>
-                    </tr>
+                    <!--load the table data details from main.js  -->
+
                     <!-- Add more rows as needed -->
                 </tbody>
             </table>
@@ -53,7 +41,10 @@
     </section>
 
     <!-- SCRIPTS -->
-
+     
+    <!-- PapaParse CDN -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+     
     <!-- JQUERY REQUIRED -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
