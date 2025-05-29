@@ -1,0 +1,113 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f8fa;
+    padding: 2rem;
+  }
+
+  #controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.8rem;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  #download-csv {
+    background-color: #1a5f1b;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  #download-csv:hover {
+    background-color:#224923;
+  }
+
+
+  /* Container Enhancements */
+.tabulator {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    /* box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1); */
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    background-color: #ffffff;
+  }
+  
+  /* Header Styling */
+  .tabulator .tabulator-header {
+    /* background-color: #212121 !important; */
+    color: #212121;
+    font-weight: 600;
+    font-size: 16px;
+    border-bottom: 4px solid #49d94b;
+  }
+  
+  .tabulator .tabulator-col {
+    padding: 12px;
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+  }
+  
+  .tabulator .tabulator-col:last-child {
+    border-right: none;
+  }
+  
+  /* Cell Styling */
+  .tabulator .tabulator-cell {
+    padding: 12px;
+    font-size: 14px;
+    color: #666666;
+    border-bottom: 1px solid #f0f0f0;
+    background-color: #ffffff;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Row Hover */
+  .tabulator .tabulator-row:hover .tabulator-cell {
+    background-color: #eaffea;
+    color: #212121;
+  }
+  
+  /* Pagination Controls */
+  .tabulator-paginator {
+    background: transparent;
+    padding: 0.85rem 0;
+  }
+  
+  .tabulator-paginator label,
+  .tabulator-page {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  .tabulator-page.active {
+    background-color: #49d94b !important;
+    color: #fff !important;
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-weight: bold;
+    border: none;
+  }
+  
+  /* Optional: Search Input Styling */
+  #search-input {
+    padding: 10px 14px;
+    width: 100%;
+    max-width: 320px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s ease;
+  }
+  
+  #search-input:focus {
+    border-color: #49d94b;
+    box-shadow: 0 0 0 2px rgba(73, 217, 75, 0.2);
+  }
+  
+
+  
