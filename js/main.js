@@ -1,69 +1,133 @@
 
-// $(document).ready(function(){
-//     $("#dataTable").DataTable();
-// })
+let table;
+const noResultsMsg = document.getElementById("no-results");
 
-//To fetch data from the csv file
-document.addEventListener("DOMContentLoaded", function(){
 
-    //laod and parse the CSV
-    Papa.parse("data/development-financing-institutions-lac/LAC_SWF.csv", {
-        download:true,
-        header:true,
-        complete: function(results){
-            const data = results?.data;
-            console.log(data)
-            const tableBody = document.querySelector("#dataTable tbody");
-
-            //loop through the data
-         data.forEach(row => {
-          const tr = document.createElement("tr");
+// Helper: Decode malformed characters
+function decodeText(text) {
+    try {
+      return decodeURIComponent(escape(text));
+    } catch {
+      return text;
+    }
+  }
   
-          tr.innerHTML = `
-            <td>${row["Assets under management(Billion USD)"]}</td>
-            <td>${row["SWF Country"]}</td>
-            <td>${row["SWF Name"]}</td>
-            <td><a href="${row["Url"]}" target="_blanc">${row["Url"]}</a></td>
-            <td>${row["Year"]}</td>
-          `;
+  // Formatter for clickable links & tooltips
+  function enhancedFormatter(cell) {
+    const value = cell.getValue();
+    const decoded = decodeText(value);
+    const urlPattern = /^(http|https):\/\/[^\s]+$/;
   
-          tableBody.appendChild(tr);
-        });
-
-
-          // Now initialize DataTable
-          $('#dataTable').DataTable();
-        }
-    })
-})
-
-
+    if (urlPattern.test(decoded)) {
+      return `<a href="${decoded}" target="_blank" style="color:#49d94b; text-decoration:underline;">${decoded}</a>`;
+    }
+  
+    return decoded;
+  }
+  
+// Fetch and render the table
 // document.addEventListener("DOMContentLoaded", function () {
-//     // Load and parse CSV
-//     Papa.parse("data/dataset.csv", {
-//       download: true,
-//       header: true,
-//       complete: function (results) {
-//         const data = results.data;
-//         const tableBody = document.querySelector("#policyTable tbody");
-  
-//         data.forEach(row => {
-//           const tr = document.createElement("tr");
-  
-//           tr.innerHTML = `
-//             <td>${row.Country}</td>
-//             <td>${row.PolicyName}</td>
-//             <td>${row.Type}</td>
-//             <td>${row.Year}</td>
-//             <td>${row.Funding}</td>
-//           `;
-  
-//           tableBody.appendChild(tr);
-//         });
-  
-//         // Now initialize DataTable
-//         $('#policyTable').DataTable();
-//       }
-//     });
+//   Papa.parse("data/development-financing-institutions-lac/LAC_SWF.csv", {
+//     download: true,
+//     header: true,
+//     encoding:"utf-8",
+//     complete: function (results) {
+//       const data = results.data;
+
+//       const columns = Object.keys(data[0] || {} ).map((key) => ({
+//         title: key,
+//         field: key,
+//         formatter: enhancedFormatter,
+//         tooltip:true,
+//         hozAlign: "left",
+//         headerSort: true,
+//         headerTooltip: true
+//       }));
+
+
+//       table = new Tabulator("#table-container", {
+//         data: data,
+//         layout: "fitColumns",
+//         pagination: "local",
+//         paginationSize: 10,
+//         movableColumns: true,
+//         responsiveLayout: "collapse",
+//         columns,
+//         tooltips: true,
+//       });
+//     },
 //   });
+// });
+
+
+// Initialize table after DOM load
+document.addEventListener("DOMContentLoaded", async function () {
+    try {
+      const response = await fetch("data/development-financing-institutions-lac/LAC_SWF.csv");
+      const buffer = await response.arrayBuffer();
+      const decoder = new TextDecoder("windows-1252");
+      const csvText = decoder.decode(buffer);
   
+      Papa.parse(csvText, {
+        header: true,
+        skipEmptyLines: true,
+        complete: function (results) {
+          const data = results.data;
+  
+          const columns = Object.keys(data[0] || {}).map((key) => ({
+            title: key.replace(/_/g, ' '),
+            field: key,
+            formatter: enhancedFormatter,
+            tooltip: true,
+            hozAlign: "left",
+            headerSort: true,
+            headerTooltip: true,
+          }));
+  
+          table = new Tabulator("#table-container", {
+            data,
+            columns,
+            layout: "fitColumns",
+            pagination: "local",
+            paginationSize: 10,
+            responsiveLayout: "collapse",
+            tooltips: true,
+            movableColumns: true,
+          });
+        },
+      });
+    } catch (error) {
+      console.error("Failed to load and parse CSV:", error);
+    }
+  });
+
+
+// Download CSV button
+document.getElementById("download-csv").addEventListener("click", function () {
+  if (table) table.download("csv", "exported-data.csv");
+});
+
+// Global Search
+document.getElementById("search-input").addEventListener("keyup", function () {
+      const query = this.value.toLowerCase();
+      table.setFilter((rowData) =>
+        Object.values(rowData).some((value) =>
+          String(value).toLowerCase().includes(query)
+        )
+      );
+
+          // Delay to ensure filtering is applied before checking
+    setTimeout(() => {
+        const visibleRows = table.getDataCount("active"); // only rows after filter
+        if (visibleRows === 0) {
+          noResultsMsg.style.display = "block";
+        } else {
+          noResultsMsg.style.display = "none";
+        }
+      }, 100);
+  
+});
+
+
+
+

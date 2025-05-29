@@ -8,9 +8,9 @@
       <!-- Bulma CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 
-    <!-- Table Data CSS -->
-    <link rel="stylesheet" href="https://cdn.datatables.net/2.3.1/css/dataTables.dataTables.css" />
-    <link rel="stylesheet" href="https://cdn.datatables.net/2.3.1/css/dataTables.css">
+    <!-- Tabulator CSS -->
+    <link href="https://unpkg.com/tabulator-tables@5.5.0/dist/css/tabulator.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -19,47 +19,35 @@
         <!-- <div class="container"> -->
             <h1 class="title">Result data for Sovereign Wealth Funds (SWFs)</h1>
             <p>In colloboaration with Oxford University</p>
-        <!-- </div> -->
-        <div class="table-container">
-            <table id="dataTable" class="table is-striped is-hoverable is-fullwidth">
-                <thead>
-                    <tr>
-                        <th>Assets under management(Billion USD)</th>
-                        <th>SWF country</th>
-                        <th>SWF Name</th>
-                        <th>URL</th>
-                        <th>Year</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!--load the table data details from main.js  -->
 
-                    <!-- Add more rows as needed -->
-                </tbody>
-            </table>
-        </div>
+
+            <div id="controls">
+            <input type="text" id="search-input" placeholder="Search table..." />
+            <button id="download-csv">Download CSV</button>
+            </div>
+           
+            <div id="no-results" style="display:none; color: #ff4d4d; margin: 10px 0;">No results found.</div>
+        <!-- </div> -->
+        <div id="table-container" class="table-container"></div>
+
     </section>
 
     <!-- SCRIPTS -->
      
     <!-- PapaParse CDN -->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script> -->
+     <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
+
      
     <!-- JQUERY REQUIRED -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
-    <script src="https://cdn.datatables.net/2.3.1/js/dataTables.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bulma@0.9.4/js/bulma.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const table = new DataTable('.table', {
-                perPage: 10,
-                perPageSelect: [5, 10, 25, 50],
-                searchable: true,
-                sortable: true,
-            });
-        });
-    </script> -->
+    <!-- DataTables JS -->
+    <!-- <script src="https://cdn.datatables.net/2.3.1/js/dataTables.js"></script> -->
+
+   <!-- Tabulator JS -->
+   <script src="https://unpkg.com/tabulator-tables@5.5.0/dist/js/tabulator.min.js"></script>
+
 
     <script src="js/main.js"></script>
 
