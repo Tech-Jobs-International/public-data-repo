@@ -4,6 +4,17 @@ body {
     padding: 2rem;
   }
 
+
+  #table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  #table-container {
+    min-width: 600px; /* You can adjust this as needed */
+  }
+  
+
   #controls {
     display: flex;
     justify-content: space-between;
@@ -110,4 +121,12 @@ body {
   }
   
 
+
+
+  /* Media Query */
+  @media(min-width:600px){
+    #table-container {
+      min-width:100%; /* You can adjust this as needed */
+    }
+  }
   

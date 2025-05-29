@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", async function () {
             layout: "fitColumns",
             pagination: "local",
             paginationSize: 10,
-            responsiveLayout: "collapse",
+            responsiveLayout:false,
             tooltips: true,
             movableColumns: true,
           });
