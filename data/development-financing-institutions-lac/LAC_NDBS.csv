@@ -1,5 +1,5 @@
 Country,ISO-3,Name in Original Language,Name in English Language,Acronym,Establishment Year,Official Mandate,Levels of Ownership,Size Category,Financial Year,Total Assets(Million USD),Total Equity(Million USD),Total Liabilities(Million USD),Website Link,Products Link
-Paraguay,PRY,Banco Nacional de Fomento,National Development Bank,BNF,1961,FLEX,NATIONAL,Small,2023,"3,095",452,"2,643",Banco Nacional de Fomento,Providing Loans
+Paraguay,PRY,Banco Nacional de Fomento,National Development Bank,BNF,1961,FLEX,NATIONAL,Small,2023,"3,095",452,"2,643",Banco Nacional de Fomento,https://www.bnf.gov.py/bnf/web/#/prestamo
 Paraguay,PRY,Agencia Financiera de Desarrollo,Development Finance Agency,AFD,2005,FLEX,NATIONAL,Micro,2023,"1,307",263,"1,044",Agencia Financiera de Desarrollo,https://www.afd.gov.py/productos
 Paraguay,PRY,Fondo Ganadero,Livestock Fund,FG,1969,AGRI,NATIONAL,Micro,2023,NI,TBR,TBR,Fondo Ganadero,
 Paraguay,PRY,Crédito Agrícola de Habilitación,Agricultural Enabling Credit,CAH,1951,AGRI,NATIONAL,Small,2023,NI,TBR,TBR,Crédito Agrícola de Habilitación,https://www.cah.gov.py/productos
@@ -74,7 +74,7 @@ Venezuela,VEN,Banco de Desarrollo Económico y Social de Venezuela,Bank of Econom
 Costa Rica,CRI,Fundecooperación para el Desarrollo Sostenible,Foundation for Sustainable Development,Fundecooperación,1994,MSME,NATIONAL,Small,2023,11,TBR,TBR,Foundation for Sustainable Development,https://fundecooperacion.org/conozca-los-proyectos-2/
 Antigua and Barbuda,ATG,Antigua and Barbuda Development Bank,Antigua and Barbuda Development Bank,ABDB,1971,FLEX,NATIONAL,NI,2023,NI,TBR,TBR,Antigua and Barbuda Development Bank,https://www.abdbank.com/projects.html
 Saint Kitts and Nevis,KNA,Development Bank of St. Kitts and Nevis,Development Bank of St. Kitts and Nevis,DBSK-N,1981,FLEX,NATIONAL,NI,2023,NI,TBR,TBR,Development Bank of St. Kitts and Nevis,https://skndb.com/investment/
-Paraguay,PRY,Banco Nacional de Fomento,National Development Bank,BNF,1961,FLEX,NATIONAL,Small,2022,"2,452",396,"2,056",Banco Nacional de Fomento,Providing Loans
+Paraguay,PRY,Banco Nacional de Fomento,National Development Bank,BNF,1961,FLEX,NATIONAL,Small,2022,"2,452",396,"2,056",Banco Nacional de Fomento,https://www.bnf.gov.py/bnf/web/#/prestamo
 Paraguay,PRY,Agencia Financiera de Desarrollo,Development Finance Agency,AFD,2005,FLEX,NATIONAL,Micro,2022,"1,140",248,892,Agencia Financiera de Desarrollo,https://www.afd.gov.py/productos
 Paraguay,PRY,Fondo Ganadero,Livestock Fund,FG,1969,AGRI,NATIONAL,Micro,2022,9,TBR,TBR,Fondo Ganadero,
 Paraguay,PRY,Crédito Agrícola de Habilitación,Agricultural Enabling Credit,CAH,1951,AGRI,NATIONAL,Small,2022,NI,TBR,TBR,Crédito Agrícola de Habilitación,https://www.cah.gov.py/productos
@@ -97,7 +97,7 @@ Brazil,BRA,Agencia do fomento de Santa Catarina,Development Agency of Santa Cata
 Brazil,BRA,Banco de Desenvolvimento do Espírito Santo S/A,State Development Bank of Espírito Santo,BANDES,1969,FLEX,SUBNATIONAL,Small,2022,252,73,179,State Development Bank of Espírito Santo,
 Brazil,BRA,Agência de Fomento do Estado da Bahia,Bahia State Development Agency,Desenbahia,2001,MSME,SUBNATIONAL,Micro,2022,NI,TBR,TBR,Agência de Fomento do Estado da Bahia,
 Brazil,BRA,Agência Estadual de Fomento ,State Development Agency,AgeRio,2002,MSME,SUBNATIONAL,Micro,2022,131,99,32,Agência Estadual de Fomento do Rio de Janeiro,https://www.agerio.com.br/demonstracoes-financeiras/
-Brazil,BRA,Agência de Fomento do Estado do Amazonas,Amazonas State Development Agency S / A,AFEAM,1999,MSME,SUBNATIONAL,Micro,2022,65,TBR,TBR,Agência de Fomento do Estado do Amazonas S/A ,Access Blocked
+Brazil,BRA,Agência de Fomento do Estado do Amazonas,Amazonas State Development Agency S / A,AFEAM,1999,MSME,SUBNATIONAL,Micro,2022,65,TBR,TBR,Agência de Fomento do Estado do Amazonas S/A ,
 Brazil,BRA,Agência de Fomento do Estado de Goiás - GoiásFomento,Goia?s Development Agency ,Goiás Fomento ,2000,MSME,SUBNATIONAL,Micro,2022,50,37,13,Goiás Fomento - Agência de Fomento do Estado de Goiás ,https://www.goiasfomento.com/acesso-a-informacao/demonstracoes-contabeis/
 Brazil,BRA,Agência de Fomento do Estado de Mato Grosso S/A,Mato Grosso State Development Agency S / A,Desenvolve MT,2003,MSME,SUBNATIONAL,Micro,2022,28,25,3,Agência de Fomento do Estado de Mato Grosso S/A,
 Brazil,BRA,Agência de Fomento e Desenvolvimento do Estado do Piauí S.A.,Agency for the Promotion and Development of the State of Piauí S.A.,Piauí Fomento,2010,MSME,SUBNATIONAL,Micro,2022,15,7,8,Agência de Fomento e Desenvolvimento do Estado do Piauí S.A. ,
@@ -149,7 +149,7 @@ Venezuela,VEN,Banco de Desarrollo Económico y Social de Venezuela,Bank of Econom
 Costa Rica,CRI,Fundecooperación para el Desarrollo Sostenible,Foundation for Sustainable Development,Fundecooperación,1994,MSME,NATIONAL,Small,2022,10,TBR,TBR,Foundation for Sustainable Development,https://fundecooperacion.org/conozca-los-proyectos-2/
 Antigua and Barbuda,ATG,Antigua and Barbuda Development Bank,Antigua and Barbuda Development Bank,ABDB,1971,FLEX,NATIONAL,NI,2022,NI,TBR,TBR,Antigua and Barbuda Development Bank,https://www.abdbank.com/projects.html
 Saint Kitts and Nevis,KNA,Development Bank of St. Kitts and Nevis,Development Bank of St. Kitts and Nevis,DBSK-N,1981,FLEX,NATIONAL,NI,2022,NI,TBR,TBR,Development Bank of St. Kitts and Nevis,https://skndb.com/investment/
-Paraguay,PRY,Banco Nacional de Fomento,National Development Bank,BNF,1961,FLEX,NATIONAL,Small,2021,"2,617",377,"2,240",Banco Nacional de Fomento,Providing Loans
+Paraguay,PRY,Banco Nacional de Fomento,National Development Bank,BNF,1961,FLEX,NATIONAL,Small,2021,"2,617",377,"2,240",Banco Nacional de Fomento,https://www.bnf.gov.py/bnf/web/#/prestamo
 Paraguay,PRY,Agencia Financiera de Desarrollo,Development Finance Agency,AFD,2005,FLEX,NATIONAL,Micro,2021,"1,063",262,801,Agencia Financiera de Desarrollo,https://www.afd.gov.py/productos
 Paraguay,PRY,Fondo Ganadero,Livestock Fund,FG,1969,AGRI,NATIONAL,Micro,2021,NI,TBR,TBR,Fondo Ganadero,
 Paraguay,PRY,Crédito Agrícola de Habilitación,Agricultural Enabling Credit,CAH,1951,AGRI,NATIONAL,Small,2021,NI,TBR,TBR,Crédito Agrícola de Habilitación,https://www.cah.gov.py/productos
@@ -224,7 +224,7 @@ Venezuela,VEN,Banco de Desarrollo Económico y Social de Venezuela,Bank of Econom
 Costa Rica,CRI,Fundecooperación para el Desarrollo Sostenible,Foundation for Sustainable Development,Fundecooperación,1994,MSME,NATIONAL,Small,2021,NI,TBR,TBR,Foundation for Sustainable Development,https://fundecooperacion.org/conozca-los-proyectos-2/
 Antigua and Barbuda,ATG,Antigua and Barbuda Development Bank,Antigua and Barbuda Development Bank,ABDB,1971,FLEX,NATIONAL,NI,2021,NI,TBR,TBR,Antigua and Barbuda Development Bank,https://www.abdbank.com/projects.html
 Saint Kitts and Nevis,KNA,Development Bank of St. Kitts and Nevis,Development Bank of St. Kitts and Nevis,DBSK-N,1981,FLEX,NATIONAL,NI,2021,NI,TBR,TBR,Development Bank of St. Kitts and Nevis,https://skndb.com/investment/
-Paraguay,PRY,Banco Nacional de Fomento,National Development Bank,BNF,1961,FLEX,NATIONAL,Small,2020,"2,471",346,"2,125",Banco Nacional de Fomento,Providing Loans
+Paraguay,PRY,Banco Nacional de Fomento,National Development Bank,BNF,1961,FLEX,NATIONAL,Small,2020,"2,471",346,"2,125",Banco Nacional de Fomento,https://www.bnf.gov.py/bnf/web/#/prestamo
 Paraguay,PRY,Agencia Financiera de Desarrollo,Development Finance Agency,AFD,2005,FLEX,NATIONAL,Micro,2020,"1,064",243,821,Agencia Financiera de Desarrollo,https://www.afd.gov.py/productos
 Paraguay,PRY,Fondo Ganadero,Livestock Fund,FG,1969,AGRI,NATIONAL,Micro,2020,17,TBR,TBR,Fondo Ganadero,
 Paraguay,PRY,Crédito Agrícola de Habilitación,Agricultural Enabling Credit,CAH,1951,AGRI,NATIONAL,Small,2020,NI,TBR,TBR,Crédito Agrícola de Habilitación,https://www.cah.gov.py/productos
@@ -374,7 +374,7 @@ Venezuela,VEN,Banco de Desarrollo Económico y Social de Venezuela,Bank of Econom
 Costa Rica,CRI,Fundecooperación para el Desarrollo Sostenible,Foundation for Sustainable Development,Fundecooperación,1994,MSME,NATIONAL,Small,2019,NI,TBR,TBR,Foundation for Sustainable Development,https://fundecooperacion.org/conozca-los-proyectos-2/
 Antigua and Barbuda,ATG,Antigua and Barbuda Development Bank,Antigua and Barbuda Development Bank,ABDB,1971,FLEX,NATIONAL,NI,2019,NI,TBR,TBR,Antigua and Barbuda Development Bank,https://www.abdbank.com/projects.html
 Saint Kitts and Nevis,KNA,Development Bank of St. Kitts and Nevis,Development Bank of St. Kitts and Nevis,DBSK-N,1981,FLEX,NATIONAL,NI,2019,NI,TBR,TBR,Development Bank of St. Kitts and Nevis,https://skndb.com/investment/
-Paraguay,PRY,Banco Nacional de Fomento,National Development Bank,BNF,1961,FLEX,NATIONAL,Small,2018,"1,750","1,455",295,Banco Nacional de Fomento,Providing Loans
+Paraguay,PRY,Banco Nacional de Fomento,National Development Bank,BNF,1961,FLEX,NATIONAL,Small,2018,"1,750","1,455",295,Banco Nacional de Fomento,https://www.bnf.gov.py/bnf/web/#/prestamo
 Paraguay,PRY,Agencia Financiera de Desarrollo,Development Finance Agency,AFD,2005,FLEX,NATIONAL,Micro,2018,922,238,684,Agencia Financiera de Desarrollo,https://www.afd.gov.py/productos
 Paraguay,PRY,Fondo Ganadero,Livestock Fund,FG,1969,AGRI,NATIONAL,Micro,2018,19,TBR,TBR,Fondo Ganadero,
 Paraguay,PRY,Crédito Agrícola de Habilitación,Agricultural Enabling Credit,CAH,1951,AGRI,NATIONAL,Small,2018,NI,TBR,TBR,Crédito Agrícola de Habilitación,https://www.cah.gov.py/productos
