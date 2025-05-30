@@ -119,6 +119,30 @@ body {
     border-color: #49d94b;
     box-shadow: 0 0 0 2px rgba(73, 217, 75, 0.2);
   }
+
+
+  .tabs{
+  /* display:flex; 
+  gap:1rem; 
+  margin-bottom:1rem; */
+  }
+
+  .tab {
+    padding: 0.85rem 0.45rem;
+    font-size: 14px;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    display:inline-block;
+    border-radius:25px;
+    margin-left:0.5rem !important;
+  }
+
+  
+  .active-tab {
+    border: 2px solid #49d94b;
+    font-weight: bold;
+  }
+  
   
 
 

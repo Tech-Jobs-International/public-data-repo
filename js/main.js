@@ -1,4 +1,39 @@
 
+const defaulltURL = `data/development-financing-institutions-lac`
+
+const datasets = [
+  {
+    id:0,
+    title: "All Development Banks Data",
+    path: `${defaulltURL}/LAC_All_Developnment_Banks.csv`,
+  },
+  {
+    id:1,
+    title: "Multilateral Development Banks Data",
+    path: `${defaulltURL}/LAC_MDBS.csv`,
+  },
+  {
+    id:2,
+    title: "National Development Bank Data",
+    path: `${defaulltURL}/LAC_NDBS.csv`,
+  },
+  {
+    id:3,
+    title: "Sovereign Wealth Fund Data",
+    path: `${defaulltURL}/LAC_SWF.csv`,
+  },
+  {
+    id:4,
+    title: "Public Procurement Spending in LAC",
+    path: "data/prublic procurement and spending/public procurement spending in LAC.csv",
+  }
+];
+
+
+
+
+
+
 let table;
 const noResultsMsg = document.getElementById("no-results");
 
@@ -61,9 +96,11 @@ function decodeText(text) {
 
 
 // Initialize table after DOM load
-document.addEventListener("DOMContentLoaded", async function () {
+async function loadDataset(dataset) {
+
+  document.getElementById("dataset-title").textContent = dataset.title;
     try {
-      const response = await fetch("data/development-financing-institutions-lac/LAC_SWF.csv");
+      const response = await fetch(dataset?.path);
       const buffer = await response.arrayBuffer();
       const decoder = new TextDecoder("windows-1252");
       const csvText = decoder.decode(buffer);
@@ -83,6 +120,8 @@ document.addEventListener("DOMContentLoaded", async function () {
             headerSort: true,
             headerTooltip: true,
           }));
+
+          if (table) table.destroy(); // remove old table
   
           table = new Tabulator("#table-container", {
             data,
@@ -100,7 +139,32 @@ document.addEventListener("DOMContentLoaded", async function () {
     } catch (error) {
       console.error("Failed to load and parse CSV:", error);
     }
+
+}
+
+
+
+// Render Tabs
+function initTabs() {
+  const tabsContainer = document.getElementById("tabs");
+  datasets.forEach((dataset, index) => {
+    const tab = document.createElement("button");
+    tab.textContent = dataset.title;
+    tab.className = `tab ${index === 0 ? 'active-tab' : ''}`;
+    tab.addEventListener("click", () => {
+      document.querySelectorAll("#tabs button").forEach(btn => btn.classList.remove("active-tab", "font-bold"));
+      tab.classList.add("active-tab", "font-bold");
+      loadDataset(dataset)
+    });
+    tabsContainer.appendChild(tab);
   });
+
+  loadDataset(datasets[0]); // Load first tab by default
+}
+
+initTabs();
+
+
 
 
 // Download CSV button
