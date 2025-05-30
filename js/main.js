@@ -3,22 +3,27 @@ const defaulltURL = `data/development-financing-institutions-lac`
 
 const datasets = [
   {
+    id:0,
     title: "All Development Banks Data",
     path: `${defaulltURL}/LAC_All_Developnment_Banks.csv`,
   },
   {
+    id:1,
     title: "Multilateral Development Banks Data",
     path: `${defaulltURL}/LAC_MDBS.csv`,
   },
   {
+    id:2,
     title: "National Development Bank Data",
     path: `${defaulltURL}/LAC_NDBS.csv`,
   },
   {
+    id:3,
     title: "Sovereign Wealth Fund Data",
     path: `${defaulltURL}/LAC_SWF.csv`,
   },
   {
+    id:4,
     title: "Public Procurement Spending in LAC",
     path: "data/prublic procurement and spending/public procurement spending in LAC.csv",
   }
@@ -93,11 +98,8 @@ function decodeText(text) {
 // Initialize table after DOM load
 async function loadDataset(dataset) {
 
-  console.log(dataset.title);
-
   document.getElementById("dataset-title").textContent = dataset.title;
     try {
-      console.log(dataset?.path)
       const response = await fetch(dataset?.path);
       const buffer = await response.arrayBuffer();
       const decoder = new TextDecoder("windows-1252");
@@ -148,10 +150,10 @@ function initTabs() {
   datasets.forEach((dataset, index) => {
     const tab = document.createElement("button");
     tab.textContent = dataset.title;
-    tab.className = `px-4 py-2 text-sm border-b-2 ${index === 0 ? 'border-[#49d94b] font-bold' : 'border-transparent'}`;
+    tab.className = `tab ${index === 0 ? 'active-tab' : ''}`;
     tab.addEventListener("click", () => {
-      document.querySelectorAll("#tabs button").forEach(btn => btn.classList.remove("border-[#49d94b]", "font-bold"));
-      tab.classList.add("border-[#49d94b]", "font-bold");
+      document.querySelectorAll("#tabs button").forEach(btn => btn.classList.remove("active-tab", "font-bold"));
+      tab.classList.add("active-tab", "font-bold");
       loadDataset(dataset)
     });
     tabsContainer.appendChild(tab);
