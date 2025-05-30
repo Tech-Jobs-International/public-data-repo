@@ -25,7 +25,7 @@ ii. If the presentation currency is not U.S. dollars, the data is converted to U
 Database after Q1 2024 (included): 
 i. If the fiscal year ends on or before June 29, 20XX, the data should be recorded for the year 20XX-1; if the fiscal year ends on or after June 30, 20XX, the data should be recorded for the year 20XX.
 ii. If the presentation currency is not USD, the data is converted to USD using the exchange rate for fiscal year-end date available at https://xe.com/."
-"Total Equity/Total Liabilities/Net Income/Profit before Tax/Net Interest Income
+"Total Equity/Total Liabilities
 (Million USD)",Total Equity/Total Liabilities of the bank in million USD,"1. Use consolidated financial statements if available; otherwise, use the unconsolidated ones.
 2. If the fiscal year ends on or before June 29, 20XX, the data should be recorded for the year 20XX-1; if the fiscal year ends on or after June 30, 20XX, the data should be recorded for the year 20XX.
 3. If the presentation currency is not USD, the data is converted to USD using the exchange rate for fiscal year-end date available at https://xe.com/."
