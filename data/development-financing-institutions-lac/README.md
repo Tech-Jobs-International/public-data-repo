@@ -63,3 +63,9 @@ Key Details:
 
 ## 📥 Get Started
 🔗 Explore the data and dive into the financial and operational profiles of key financial institutions driving sustainable development in the region.
+
+## Citation - For using the information on NDBS /MDBS , please cite:
+
+"Xu, Jiajun, Régis Marodon, Xinshun Ru, Xiaomeng Ren, and Xinyue Wu. 2021. “What are Public Development Banks and Development Financing Institutions?——Qualification Criteria, Stylized Facts and Development Trends.” China Economic Quarterly International, volume 1, issue 4: 271-294. 
+DOI: https://doi.org/10.1016/j.ceqi.2021.10.001
+Database DOI：https://doi.org/10.18170/DVN/VLG6SN"
