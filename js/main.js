@@ -4,28 +4,23 @@ const defaulltURL = `data/development-financing-institutions-lac`
 const datasets = [
   {
     id:0,
-    title: "All Development Banks Data",
-    path: `${defaulltURL}/LAC_All_Developnment_Banks.csv`,
-  },
-  {
-    id:1,
     title: "Multilateral Development Banks Data",
     path: `${defaulltURL}/LAC_MDBS.csv`,
   },
   {
-    id:2,
+    id:1,
     title: "National Development Bank Data",
     path: `${defaulltURL}/LAC_NDBS.csv`,
   },
   {
-    id:3,
+    id:2,
     title: "Sovereign Wealth Fund Data",
     path: `${defaulltURL}/LAC_SWF.csv`,
   },
   {
-    id:4,
+    id:3,
     title: "Public Procurement Spending in LAC",
-    path: "data/prublic procurement and spending/public procurement spending in LAC.csv",
+    path: "data/prublic procurement and spending/public spending in LAC.csv",
   }
 ];
 
@@ -111,7 +106,7 @@ async function loadDataset(dataset) {
         complete: function (results) {
           const data = results.data;
   
-          const columns = Object.keys(data[0] || {}).map((key) => ({
+          const columns = Object.keys(data[0] || {}).map((key, index) => ({
             title: key.replace(/_/g, ' '),
             field: key,
             formatter: enhancedFormatter,
@@ -127,12 +122,13 @@ async function loadDataset(dataset) {
             data,
             columns,
             layout: "fitColumns",
+            responsiveLayout: "scroll",
             pagination: "local",
             paginationSize: 10,
-            // responsiveLayout: "collapse",
-            responsiveLayout:false,
             tooltips: true,
             movableColumns: true,
+            // responsiveLayout: "collapse",
+            // responsiveLayout:true,
           });
         },
       });
