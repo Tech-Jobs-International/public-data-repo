@@ -129,7 +129,7 @@ body {
   .tab {
     padding: 0.85rem 0.45rem;
     font-size: 14px;
-    border-bottom: 2px solid transparent;
+    border: 1px solid #ccc;
     cursor: pointer;
     display:inline-block;
     border-radius:25px;
@@ -141,6 +141,18 @@ body {
     border: 2px solid #49d94b;
     font-weight: bold;
   }
+
+ .table-footer a{
+  text-align:left;
+  display:inline-block;
+  color:#00f !important;
+  }
+
+.table-footer a:hover {
+  text-decoration: none;
+  color: #2fa333;
+
+}
   
   
 

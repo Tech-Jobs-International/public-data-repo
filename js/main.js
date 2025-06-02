@@ -21,6 +21,7 @@ const datasets = [
     id:3,
     title: "Public Procurement Spending in LAC",
     path: "data/prublic procurement and spending/public spending in LAC.csv",
+    url:"https://statistics.cepal.org/portal/databank/index.html?lang=en&indicator_id=1246&area_id=482&members=216%2C10697%2C10658%2C10698%2C10696%2C10699%2C10675%2C10676%2C10674%2C29160%2C29161%2C29162%2C29163%2C29164%2C29165%2C29166%2C29167%2C29168%2C29169%2C29170%2C29171%2C29172%2C29173%2C29174%2C29175%2C29176%2C29177%2C29178%2C29179%2C29180%2C29181%2C29182%2C29183%2C29184%2C29185%2C29186%2C29187%2C29188%2C29189%2C29190"
   }
 ];
 
@@ -31,6 +32,7 @@ const datasets = [
 
 let table;
 const noResultsMsg = document.getElementById("no-results");
+const tableFooter = document.getElementById("table-footer");
 
 
 // Helper: Decode malformed characters
@@ -53,6 +55,21 @@ function decodeText(text) {
     }
   
     return decoded;
+  }
+  
+  function renderFooterLink(url) {
+    tableFooter.innerHTML = ""; // Clear previous content
+  
+    if (url) {
+      const anchor = document.createElement("a");
+      anchor.href = url;
+      anchor.target = "_blank";
+      anchor.rel = "noopener noreferrer";
+      anchor.textContent = `Source: CEPALSTAT – Economic Commission for Latin America and the Caribbean (ECLAC). "Government Operations (Economic Classification), as a Percentage of GDP`
+      anchor.style.cssText =
+        "color: #49d94b; text-decoration: underline; display: inline-block; margin-top: 1rem;";
+      tableFooter.appendChild(anchor);
+    }
   }
   
 // Fetch and render the table
@@ -130,6 +147,8 @@ async function loadDataset(dataset) {
             // responsiveLayout: "collapse",
             // responsiveLayout:true,
           });
+
+          renderFooterLink(dataset.url);
         },
       });
     } catch (error) {
