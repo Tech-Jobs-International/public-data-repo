@@ -64,8 +64,8 @@ Dominican Republic,DOM,Banco Agrícola de la República Dominicana,Agricultural Ba
 Dominican Republic,DOM,Banco Nacional de las Exportaciones,National Export Bank,BANDEX,1962,EXIM,NATIONAL,Small,2023,387,86,301,Banco Nacional de las Exportaciones,https://www.bandex.com.do/nuestros-productos/
 Honduras,HND,Banco Hondureño para la producción y la Vivienda,Honduran Bank for production and Housing,BANHPROVI,2005,FLEX,NATIONAL,Small,2023,NI,NI,NI,Banco Hondureño para la producción y la Vivienda,
 Honduras,HND,Banco Nacional de Desarrollo Agrícola,National Bank for Agricultural Development,BANADESA,1950,AGRI,NATIONAL,Small,2023,NI,TBR,TBR,Banco Nacional de Desarrollo Agrícola,
-Jamaica,JAM,Development Bank of Jamaica,Development Bank of Jamaica,DBJ,2000,FLEX,NATIONAL,Micro,2023,TBR,NI,NI,,Development Bank of Jamaica
-Jamaica,JAM,National Import – Export Bank of Jamaica,National Import – Export Bank of Jamaica,EXIM Bank Jamaica,1986,EXIM,NATIONAL,Micro,2023,TBR,NI,NI,,National Import – Export Bank of Jamaica
+Jamaica,JAM,Development Bank of Jamaica,Development Bank of Jamaica,DBJ,2000,FLEX,NATIONAL,Micro,2023,TBR,NI,NI,TBR,Development Bank of Jamaica
+Jamaica,JAM,National Import – Export Bank of Jamaica,National Import – Export Bank of Jamaica,EXIM Bank Jamaica,1986,EXIM,NATIONAL,Micro,2023,TBR,NI,NI,TBR,National Import – Export Bank of Jamaica
 Belize,BLZ,Development Finance Corporation,Development Finance Corporation,DFC,1963,FLEX,NATIONAL,Micro,2023,82,28,54,Development Finance Corporation,https://www.dfcbelize.org/loans/sectors-dfc-finances/
 Belize,BLZ,Belize Marketing and Development Corporation,Belize Marketing and Development Corporation,MBDC,2003,AGRI,NATIONAL,NI,2023,NI,TBR,TBR,Belize Marketing and Development Corporation,
 Grenada,GRD,Grenada Development Bank,Grenada Development Bank,GDB,1965,FLEX,NATIONAL,Micro,2023,NI,NI,NI,Grenada Development Bank,https://grenadadevelopmentbank.com/assets/files/2021-GDBAnnualReport.pdf
@@ -139,8 +139,8 @@ Dominican Republic,DOM,Banco Agrícola de la República Dominicana,Agricultural Ba
 Dominican Republic,DOM,Banco Nacional de las Exportaciones,National Export Bank,BANDEX,1962,EXIM,NATIONAL,Small,2022,248,83,165,Banco Nacional de las Exportaciones,https://www.bandex.com.do/nuestros-productos/
 Honduras,HND,Banco Hondureño para la producción y la Vivienda,Honduran Bank for production and Housing,BANHPROVI,2005,FLEX,NATIONAL,Small,2022,NI,NI,NI,Banco Hondureño para la producción y la Vivienda,
 Honduras,HND,Banco Nacional de Desarrollo Agrícola,National Bank for Agricultural Development,BANADESA,1950,AGRI,NATIONAL,Small,2022,NI,TBR,TBR,Banco Nacional de Desarrollo Agrícola,
-Jamaica,JAM,Development Bank of Jamaica,Development Bank of Jamaica,DBJ,2000,FLEX,NATIONAL,Micro,2022,TBR,NI,NI,,Development Bank of Jamaica
-Jamaica,JAM,National Import – Export Bank of Jamaica,National Import – Export Bank of Jamaica,EXIM Bank Jamaica,1986,EXIM,NATIONAL,Micro,2022,TBR,NI,NI,,National Import – Export Bank of Jamaica
+Jamaica,JAM,Development Bank of Jamaica,Development Bank of Jamaica,DBJ,2000,FLEX,NATIONAL,Micro,2022,TBR,NI,NI,TBR,Development Bank of Jamaica
+Jamaica,JAM,National Import – Export Bank of Jamaica,National Import – Export Bank of Jamaica,EXIM Bank Jamaica,1986,EXIM,NATIONAL,Micro,2022,TBR,NI,NI,TBR,National Import – Export Bank of Jamaica
 Belize,BLZ,Development Finance Corporation,Development Finance Corporation,DFC,1963,FLEX,NATIONAL,Micro,2022,72,27,45,Development Finance Corporation,https://www.dfcbelize.org/loans/sectors-dfc-finances/
 Belize,BLZ,Belize Marketing and Development Corporation,Belize Marketing and Development Corporation,MBDC,2003,AGRI,NATIONAL,NI,2022,NI,TBR,TBR,Belize Marketing and Development Corporation,
 Grenada,GRD,Grenada Development Bank,Grenada Development Bank,GDB,1965,FLEX,NATIONAL,Micro,2022,NI,NI,NI,Grenada Development Bank,https://grenadadevelopmentbank.com/assets/files/2021-GDBAnnualReport.pdf
@@ -214,8 +214,8 @@ Dominican Republic,DOM,Banco Agrícola de la República Dominicana,Agricultural Ba
 Dominican Republic,DOM,Banco Nacional de las Exportaciones,National Export Bank,BANDEX,1962,EXIM,NATIONAL,Small,2021,143,75,68,Banco Nacional de las Exportaciones,https://www.bandex.com.do/nuestros-productos/
 Honduras,HND,Banco Hondureño para la producción y la Vivienda,Honduran Bank for production and Housing,BANHPROVI,2005,FLEX,NATIONAL,Small,2021,573,389,183,Banco Hondureño para la producción y la Vivienda,
 Honduras,HND,Banco Nacional de Desarrollo Agrícola,National Bank for Agricultural Development,BANADESA,1950,AGRI,NATIONAL,Small,2021,NI,TBR,TBR,Banco Nacional de Desarrollo Agrícola,
-Jamaica,JAM,Development Bank of Jamaica,Development Bank of Jamaica,DBJ,2000,FLEX,NATIONAL,Micro,2021,TBR,NI,NI,,Development Bank of Jamaica
-Jamaica,JAM,National Import – Export Bank of Jamaica,National Import – Export Bank of Jamaica,EXIM Bank Jamaica,1986,EXIM,NATIONAL,Micro,2021,TBR,0.006522415,54,,National Import – Export Bank of Jamaica
+Jamaica,JAM,Development Bank of Jamaica,Development Bank of Jamaica,DBJ,2000,FLEX,NATIONAL,Micro,2021,TBR,NI,NI,TBR,Development Bank of Jamaica
+Jamaica,JAM,National Import – Export Bank of Jamaica,National Import – Export Bank of Jamaica,EXIM Bank Jamaica,1986,EXIM,NATIONAL,Micro,2021,TBR,0.006522415,54,TBR,National Import – Export Bank of Jamaica
 Belize,BLZ,Development Finance Corporation,Development Finance Corporation,DFC,1963,FLEX,NATIONAL,Micro,2021,68,26,41,Development Finance Corporation,https://www.dfcbelize.org/loans/sectors-dfc-finances/
 Belize,BLZ,Belize Marketing and Development Corporation,Belize Marketing and Development Corporation,MBDC,2003,AGRI,NATIONAL,NI,2021,NI,TBR,TBR,Belize Marketing and Development Corporation,
 Grenada,GRD,Grenada Development Bank,Grenada Development Bank,GDB,1965,FLEX,NATIONAL,Micro,2021,37,10,27,Grenada Development Bank,https://grenadadevelopmentbank.com/assets/files/2021-GDBAnnualReport.pdf
@@ -289,8 +289,8 @@ Dominican Republic,DOM,Banco Agrícola de la República Dominicana,Agricultural Ba
 Dominican Republic,DOM,Banco Nacional de las Exportaciones,National Export Bank,BANDEX,1962,EXIM,NATIONAL,Small,2020,127,66,61,Banco Nacional de las Exportaciones,https://www.bandex.com.do/nuestros-productos/
 Honduras,HND,Banco Hondureño para la producción y la Vivienda,Honduran Bank for production and Housing,BANHPROVI,2005,FLEX,NATIONAL,Small,2020,558,370,188,Banco Hondureño para la producción y la Vivienda,
 Honduras,HND,Banco Nacional de Desarrollo Agrícola,National Bank for Agricultural Development,BANADESA,1950,AGRI,NATIONAL,Small,2020,NI,TBR,TBR,Banco Nacional de Desarrollo Agrícola,
-Jamaica,JAM,Development Bank of Jamaica,Development Bank of Jamaica,DBJ,2000,FLEX,NATIONAL,Micro,2020,TBR,NI,NI,,Development Bank of Jamaica
-Jamaica,JAM,National Import – Export Bank of Jamaica,National Import – Export Bank of Jamaica,EXIM Bank Jamaica,1986,EXIM,NATIONAL,Micro,2020,TBR,0.00687193,55,,National Import – Export Bank of Jamaica
+Jamaica,JAM,Development Bank of Jamaica,Development Bank of Jamaica,DBJ,2000,FLEX,NATIONAL,Micro,2020,TBR,NI,NI,TBR,Development Bank of Jamaica
+Jamaica,JAM,National Import – Export Bank of Jamaica,National Import – Export Bank of Jamaica,EXIM Bank Jamaica,1986,EXIM,NATIONAL,Micro,2020,TBR,0.00687193,55,TBR,National Import – Export Bank of Jamaica
 Belize,BLZ,Development Finance Corporation,Development Finance Corporation,DFC,1963,FLEX,NATIONAL,Micro,2020,59,13,46,Development Finance Corporation,https://www.dfcbelize.org/loans/sectors-dfc-finances/
 Belize,BLZ,Belize Marketing and Development Corporation,Belize Marketing and Development Corporation,MBDC,2003,AGRI,NATIONAL,NI,2020,NI,TBR,TBR,Belize Marketing and Development Corporation,
 Grenada,GRD,Grenada Development Bank,Grenada Development Bank,GDB,1965,FLEX,NATIONAL,Micro,2020,34,10,25,Grenada Development Bank,https://grenadadevelopmentbank.com/assets/files/2021-GDBAnnualReport.pdf
@@ -364,8 +364,8 @@ Dominican Republic,DOM,Banco Agrícola de la República Dominicana,Agricultural Ba
 Dominican Republic,DOM,Banco Nacional de las Exportaciones,National Export Bank,BANDEX,1962,EXIM,NATIONAL,Small,2019,154,72,81,Banco Nacional de las Exportaciones,https://www.bandex.com.do/nuestros-productos/
 Honduras,HND,Banco Hondureño para la producción y la Vivienda,Honduran Bank for production and Housing,BANHPROVI,2005,FLEX,NATIONAL,Small,2019,443,357,85,Banco Hondureño para la producción y la Vivienda,
 Honduras,HND,Banco Nacional de Desarrollo Agrícola,National Bank for Agricultural Development,BANADESA,1950,AGRI,NATIONAL,Small,2019,NI,TBR,TBR,Banco Nacional de Desarrollo Agrícola,
-Jamaica,JAM,Development Bank of Jamaica,Development Bank of Jamaica,DBJ,2000,FLEX,NATIONAL,Micro,2019,TBR,0.007546568,263,,Development Bank of Jamaica
-Jamaica,JAM,National Import – Export Bank of Jamaica,National Import – Export Bank of Jamaica,EXIM Bank Jamaica,1986,EXIM,NATIONAL,Micro,2019,TBR,0.007407314,57,,National Import – Export Bank of Jamaica
+Jamaica,JAM,Development Bank of Jamaica,Development Bank of Jamaica,DBJ,2000,FLEX,NATIONAL,Micro,2019,TBR,0.007546568,263,TBR,Development Bank of Jamaica
+Jamaica,JAM,National Import – Export Bank of Jamaica,National Import – Export Bank of Jamaica,EXIM Bank Jamaica,1986,EXIM,NATIONAL,Micro,2019,TBR,0.007407314,57,TBR,National Import – Export Bank of Jamaica
 Belize,BLZ,Development Finance Corporation,Development Finance Corporation,DFC,1963,FLEX,NATIONAL,Micro,2019,56,14,42,Development Finance Corporation,https://www.dfcbelize.org/loans/sectors-dfc-finances/
 Belize,BLZ,Belize Marketing and Development Corporation,Belize Marketing and Development Corporation,MBDC,2003,AGRI,NATIONAL,NI,2019,NI,TBR,TBR,Belize Marketing and Development Corporation,
 Grenada,GRD,Grenada Development Bank,Grenada Development Bank,GDB,1965,FLEX,NATIONAL,Micro,2019,33,9,24,Grenada Development Bank,https://grenadadevelopmentbank.com/assets/files/2021-GDBAnnualReport.pdf
@@ -439,8 +439,8 @@ Dominican Republic,DOM,Banco Agrícola de la República Dominicana,Agricultural Ba
 Dominican Republic,DOM,Banco Nacional de las Exportaciones,National Export Bank,BANDEX,1962,EXIM,NATIONAL,Small,2018,162,75,88,Banco Nacional de las Exportaciones,https://www.bandex.com.do/nuestros-productos/
 Honduras,HND,Banco Hondureño para la producción y la Vivienda,Honduran Bank for production and Housing,BANHPROVI,2005,FLEX,NATIONAL,Small,2018,429,338,91,Banco Hondureño para la producción y la Vivienda,
 Honduras,HND,Banco Nacional de Desarrollo Agrícola,National Bank for Agricultural Development,BANADESA,1950,AGRI,NATIONAL,Small,2018,NI,TBR,TBR,Banco Nacional de Desarrollo Agrícola,
-Jamaica,JAM,Development Bank of Jamaica,Development Bank of Jamaica,DBJ,2000,FLEX,NATIONAL,Micro,2018,JMD,0.007849796,251,,Development Bank of Jamaica
-Jamaica,JAM,National Import – Export Bank of Jamaica,National Import – Export Bank of Jamaica,EXIM Bank Jamaica,1986,EXIM,NATIONAL,Micro,2018,JMD,0.008082768,64,,National Import – Export Bank of Jamaica
+Jamaica,JAM,Development Bank of Jamaica,Development Bank of Jamaica,DBJ,2000,FLEX,NATIONAL,Micro,2018,JMD,0.007849796,251,TBR,Development Bank of Jamaica
+Jamaica,JAM,National Import – Export Bank of Jamaica,National Import – Export Bank of Jamaica,EXIM Bank Jamaica,1986,EXIM,NATIONAL,Micro,2018,JMD,0.008082768,64,TBR,National Import – Export Bank of Jamaica
 Belize,BLZ,Development Finance Corporation,Development Finance Corporation,DFC,1963,FLEX,NATIONAL,Micro,2018,56,15,41,Development Finance Corporation,https://www.dfcbelize.org/loans/sectors-dfc-finances/
 Belize,BLZ,Belize Marketing and Development Corporation,Belize Marketing and Development Corporation,MBDC,2003,AGRI,NATIONAL,NI,2018,NI,TBR,TBR,Belize Marketing and Development Corporation,
 Grenada,GRD,Grenada Development Bank,Grenada Development Bank,GDB,1965,FLEX,NATIONAL,Micro,2018,28,9,19,Grenada Development Bank,https://grenadadevelopmentbank.com/assets/files/2021-GDBAnnualReport.pdf
