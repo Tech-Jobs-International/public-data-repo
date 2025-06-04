@@ -95,39 +95,6 @@ function decodeText(text) {
     }
   }
   
-// Fetch and render the table
-// document.addEventListener("DOMContentLoaded", function () {
-//   Papa.parse("data/development-financing-institutions-lac/LAC_SWF.csv", {
-//     download: true,
-//     header: true,
-//     encoding:"utf-8",
-//     complete: function (results) {
-//       const data = results.data;
-
-//       const columns = Object.keys(data[0] || {} ).map((key) => ({
-//         title: key,
-//         field: key,
-//         formatter: enhancedFormatter,
-//         tooltip:true,
-//         hozAlign: "left",
-//         headerSort: true,
-//         headerTooltip: true
-//       }));
-
-
-//       table = new Tabulator("#table-container", {
-//         data: data,
-//         layout: "fitColumns",
-//         pagination: "local",
-//         paginationSize: 10,
-//         movableColumns: true,
-//         responsiveLayout: "collapse",
-//         columns,
-//         tooltips: true,
-//       });
-//     },
-//   });
-// });
 
 
 // Initialize table after DOM load
@@ -167,8 +134,6 @@ async function loadDataset(dataset) {
             paginationSize: 10,
             tooltips: true,
             movableColumns: true,
-            // responsiveLayout: "collapse",
-            // responsiveLayout:true,
           });
 
           renderFooterLink(dataset.urls);
