@@ -8,7 +8,7 @@ const datasets = [
     path: `${defaulltURL}/LAC_MDBS.csv`,
     urls:[
       {
-      title:"Database DOI ",
+      title:"Xu, Jiajun, et al. 2021. “Public Development Banks Dataset.” Harvard Dataverse.",
       link:`https://doi.org/10.18170/DVN/VLG6SN`
       }
     ]
@@ -19,8 +19,8 @@ const datasets = [
     path: `${defaulltURL}/LAC_NDBS.csv`,
     urls:[
      {
-      title:`Xu, Jiajun, Régis Marodon, Xinshun Ru, Xiaomeng Ren, and Xinyue Wu. 2021. “What are Public Development Banks and Development Financing Institutions?——Qualification Criteria, Stylized Facts and Development Trends.” China Economic Quarterly International, volume 1, issue 4: 271-294 DOI: `,
-      link:"https://doi.org/10.1016/j.ceqi.2021.10.001"
+      title:`Xu, Jiajun, et al. 2021. “Public Development Banks Dataset.” Harvard Dataverse.`,
+      link:"https://doi.org/10.18170/DVN/VLG6SN"
      }
     ]
   },
@@ -31,15 +31,15 @@ const datasets = [
   },
   {
     id:3,
-    title: "Public Procurement Spending in LAC",
+    title: "Public Spending in LAC",
     path: "data/prublic procurement and spending/public spending in LAC.csv",
     urls:[
       {
-      title:`Source: CEPALSTAT – Economic Commission for Latin America and the Caribbean (ECLAC). "Government Operations (Economic Classification), as a Percentage of GDP`,
-      link:"https://statistics.cepal.org/portal/databank/index.html?lang=en&indicator_id=1246&area_id=482&members=216%2C10697%2C10658%2C10698%2C10696%2C10699%2C10675%2C10676%2C10674%2C29160%2C29161%2C29162%2C29163%2C29164%2C29165%2C29166%2C29167%2C29168%2C29169%2C29170%2C29171%2C29172%2C29173%2C29174%2C29175%2C29176%2C29177%2C29178%2C29179%2C29180%2C29181%2C29182%2C29183%2C29184%2C29185%2C29186%2C29187%2C29188%2C29189%2C29190",
+      title:`Economic Commission for Latin America and the Caribbean (ECLAC). "Government Operations (Economic Classification), as a Percentage of GDP." CEPALSTAT`,
+      link:"https://statistics.cepal.org/portal/databank/index.html?indicator_id=1246&lang=en",
       },
       {
-      title:`United Nations Statistics Division. "National Accounts Main Aggregates Database – Basic Data Selection.`,
+      title:`United Nations Statistics Division. "National Accounts Main Aggregates Database – Basic Data Selection`,
       link:"https://unstats.un.org/unsd/snaama/Basic"
       }
     ]

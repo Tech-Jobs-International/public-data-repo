@@ -1,7 +1,7 @@
 body {
     font-family: 'Segoe UI', sans-serif;
     background: #f5f8fa;
-    padding: 2rem;
+    padding:1rem 2rem;
   }
 
   #table-wrapper {
@@ -17,7 +17,7 @@ body {
   #controls {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1.8rem;
+    margin-bottom: 1rem;
     flex-wrap: wrap;
     gap: 10px;
   }
@@ -35,6 +35,9 @@ body {
     background-color:#224923;
   }
 
+  .title{
+    font-size:1.5rem;
+  }
 
   /* Container Enhancements */
 .tabulator {
@@ -127,8 +130,8 @@ body {
   }
 
   .tab {
-    padding: 0.85rem 0.45rem;
-    font-size: 14px;
+    padding: 0.75rem 0.5rem;
+    font-size: 1rem;
     border: 1px solid #ccc;
     cursor: pointer;
     display:inline-block;
@@ -154,6 +157,13 @@ body {
 
 }
   
+
+/* citation styles */
+.notification{
+background: #ccc !important;
+padding:0.5rem;
+margin-bottom:0.75rem !important;
+}
   
 
   
