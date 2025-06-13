@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0.1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
       <!-- Prevent caching -->
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
@@ -17,7 +17,9 @@
     <!-- Tabulator CSS -->
     <link href="https://unpkg.com/tabulator-tables@5.5.0/dist/css/tabulator.min.css" rel="stylesheet">
 
+    <!-- Custom css -->
     <link rel="stylesheet" href="./css/style.css?v=1.0.0">
+
 </head>
 <body>
     
@@ -25,7 +27,7 @@
      <!-- Citation Box -->
     <div class="notification is-warning is-light">
      <!-- <strong>🔖 Citation:</strong><br> -->
-     Estevez, Isabel and Lebdioui, Amir (2025). 
+     <strong>Supplementary Material for: </strong>Estevez, Isabel and Lebdioui, Amir (2025). 
      <em>"Mobilizing Investment for Green Industrialization and Regional Integration in Latin America and the Caribbean."</em> 
       Working Paper, TIDE Centre, Oxford University.  
       <!-- <a href="https://example.com/full-paper" target="_blank" class="has-text-weight-semibold has-text-link-dark">
@@ -38,6 +40,28 @@
 
             <h2 class="title" id="dataset-title"></h2>
 
+            <!-- Filters Section -->
+<div id="filters" class="filters" style="margin-bottom: 1rem;">
+  <div class="field is-horizontal">
+    <div class="field-body">
+      <div class="field">
+        <p class="control is-expanded">
+          <input id="filter-year" class="input" type="text" placeholder="Filter by Year">
+        </p>
+      </div>
+      <div class="field">
+        <p class="control is-expanded">
+          <input id="filter-country" class="input" type="text" placeholder="Filter by Country">
+        </p>
+      </div>
+      <div class="field">
+        <p class="control">
+          <button id="clear-filters" class="button is-light">Clear Filters</button>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
             <div id="controls">
             <input type="text" id="search-input" placeholder="Search table..." />
@@ -46,8 +70,13 @@
            
             <div id="no-results" style="display:none; color: #ff4d4d; margin: 10px 0;">No results found.</div>
         <!-- </div> -->
-        <div id="table-wrapper" style="overflow-x: auto;">
+         <div id="table-wrapper" style="overflow-x: auto;">
           <div id="table-container" class="table-container"></div>
+        </div>
+
+        <!-- loader indicator -->
+        <div class="loader-wrapper" style="text-align:center;margin-top:2rem;">
+          <span id="loader" class="loader" style="font-size:2em; display:none;border-top:3px solid #49d94b;"></span>
         </div>
 
 
@@ -66,14 +95,11 @@
     <!-- JQUERY REQUIRED -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
-    <!-- DataTables JS -->
-    <!-- <script src="https://cdn.datatables.net/2.3.1/js/dataTables.js"></script> -->
-
     <!-- Tabulator JS -->
     <script src="https://unpkg.com/tabulator-tables@5.5.0/dist/js/tabulator.min.js"></script>
 
 
-    <script src="js/main.js?v=1.0.1"></script>
+    <script src="js/main-test.js"></script>
 
 </body>
 </html>

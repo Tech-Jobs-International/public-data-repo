@@ -1,6 +1,7 @@
 
 const defaulltURL = `data/development-financing-institutions-lac`
 
+const defaultURL = "https://github.com/Tech-Jobs-International/public-data-repo/tree/main/data";
 const datasets = [
   {
     id:0,
@@ -42,7 +43,10 @@ const datasets = [
       title:`United Nations Statistics Division. "National Accounts Main Aggregates Database – Basic Data Selection`,
       link:"https://unstats.un.org/unsd/snaama/Basic"
       }
-    ]
+    ],
+   refrence:`Public Spending Value as a product of 
+(1) GDP (source: United Nations Statistics Division, "National Accounts Main Aggregates Database – Basic Data Selection") and 
+(2) Public Spending as a percentage of GDP (source: Economic Commission for Latin America and the Caribbean (ECLAC), "Government Operations (Economic Classification), as a Percentage of GDP," CEPALSTAT).`
   }
 ];
 
